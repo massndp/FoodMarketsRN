@@ -24,9 +24,9 @@ const SignUp = ({navigation}) => {
         <Gap height={24} />
         <Gap height={12} />
         <Button
-          text="Register"
+          text="Continue"
           textColor="#020202"
-          onPress={() => navigation.navigate('SignUp')}
+          onPress={() => navigation.navigate('SignUpAddress')}
         />
       </View>
     </View>
